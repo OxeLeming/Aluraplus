@@ -70,7 +70,7 @@ body{
     margin: 0 10em;
 }
 
-.container__imgplataformas{
+.secundario__imagem{
     width: 80%;
 }
 
@@ -83,4 +83,14 @@ body{
 .descricao__texto{
     font-size: 16px;
     color: var(--cinza-secundario);
+
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
 }
