@@ -154,3 +154,27 @@ body{
     background-color: #6598f0;
     color: var(--cor-de-fundo);
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background: none;
+        margin: 1em;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 70%;
+    }
+
+    .dispositivos{
+        display: block;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+    .rodape__lista{
+        display: block;
+    }
+}
